@@ -78,6 +78,9 @@ header .profile-image:hover {
   transform: scale(1.5);
   box-shadow: 0px 3px 12px rgba(0, 0, 0, .5);
 }
+main .align-right {
+  text-align: right;
+}
 .tag {
   background-color: #efefef;
   color: black;
@@ -87,8 +90,10 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #008080;
+  color: white;
+  padding-left: 27px;
+  padding-right: 27px;
 }
 .card {
   margin: 30px;
